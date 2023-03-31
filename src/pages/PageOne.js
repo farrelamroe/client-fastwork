@@ -20,20 +20,9 @@ const PageOne = () => {
           />
         </svg>
 
-        <div className="bottom-0 absolute h-[50%] w-full bg-white rounded-t-2xl left-[50%] translate-x-[-50%] z-0">
-          <svg
-            width="39"
-            height="10"
-            viewBox="0 0 39 10"
-            fill="none"
-            xmlns="http://www.w3.org/2000/svg"
-            className="-translate-y-12 block mx-auto hover:cursor-pointer">
-            <rect width="39" height="10" rx="5" fill="black" />
-          </svg>
-          <h1 className="font-bold text-3xl pt-5 pl-5 pr-16">
-            Get 80% off with our exclusive discount offer!
-          </h1>
-        </div>
+        <button className="bottom-0 absolute py-5 w-full bg-white rounded-t-2xl left-[50%] translate-x-[-50%] z-0">
+          Lihat Produk
+        </button>
       </div>
     </>
   );
